@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="shine8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#bg8)"/>
+  <path d="M32 144 C 160 96, 352 96, 480 144 L480 32 L32 32 Z" fill="url(#shine8)"/>
+  <!-- Bridge motif with two nodes for the Xingqiao API identity. -->
+  <path d="M124 334 C 190 286, 322 286, 388 334" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="124" cy="334" r="15" fill="#FFFFFF" opacity="0.95"/>
+  <circle cx="388" cy="334" r="15" fill="#FFFFFF" opacity="0.95"/>
+  <!-- AI sparkle (four-point star) with small companion. -->
+  <path d="M256 108 C 268 190 300 222 382 234 C 300 246 268 278 256 360 C 244 278 212 246 130 234 C 212 222 244 190 256 108 Z" fill="#FFFFFF"/>
+  <path d="M368 330 C 374 366 388 380 424 386 C 388 392 374 406 368 442 C 362 406 348 392 312 386 C 348 380 362 366 368 330 Z" fill="#FFFFFF" opacity="0.85"/>
+</svg>
